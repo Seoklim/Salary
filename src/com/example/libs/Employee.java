@@ -81,10 +81,12 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	
+	
 	@Override
 	public String toString() {
 		return String.format(
-				"%-5s%5s%5s%5d%10d%7d%7d%10d%10d",
+				"%-5s%5s%5s\t%5d%,10d%,7d%,7d%,10d%,10d",       //10,d 세자리마다 찍ㅇ저ㅜㅁ
 				empno, name, dname, base, hopay, fampay, nightpay, total, salary);
 	}
 	

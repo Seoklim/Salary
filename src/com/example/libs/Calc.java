@@ -24,8 +24,8 @@ public class Calc {
 			int nightpay = this.getNightpay(emp.getNight()); //야근수당
 			emp.setNightpay(nightpay); //야근수당셋팅
 			int base = emp.getBase();
-			int basePay = this.getBase(base); //기본급
-			emp.setBase(basePay); //기본급수당 셋팅
+			int basePay = this.getBase(base); //기본급수당
+			
 			int family = emp.getFamily(); //가족수
 			int famPay = 7000*family;
 			emp.setFampay(famPay); //가족수당 셋팅
